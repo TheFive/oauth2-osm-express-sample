@@ -1,0 +1,41 @@
+{
+  "name": "oauth2-osm-express-sample",
+  "version": "1.0.0",
+  "description": "Small sample how to work with oauth2 OpenStreetMap and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://TheFive@github.com/TheFive/oauth2-osm-express-sample.git"
+  },
+  "keywords": [
+    "Sample",
+    "OAuth2",
+    "OpenStreetMap",
+    "Express"
+  ],
+  "author": "TheFive",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheFive/oauth2-osm-express-sample/issues"
+  },
+  "homepage": "https://github.com/TheFive/oauth2-osm-express-sample#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "axios-cookiejar-support": "^2.0.4",
+    "eslint": "^8.11.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "passport": "^0.5.2",
+    "passport-oauth2": "^1.6.1",
+    "txml": "^5.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "nock": "^13.2.4",
+    "tough-cookie": "^4.0.0"
+  }
+}

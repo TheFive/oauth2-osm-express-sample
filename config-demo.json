@@ -1,0 +1,10 @@
+{
+    "OpenStreetmapOauth2": { 
+    "authorizationURL": "https://www.openstreetmap.org/oauth2/authorize",
+    "tokenURL": "https://www.openstreetmap.org/oauth2/token",
+    "clientID": "copy this file to config.js and enter your OSM Client ID",
+    "clientSecret": "copy this file to config.js and enter your OSM clientSecret",
+    "callbackURL": "http://127.0.0.1:3000/auth/openstreetmap/callback",
+    "scope": "read_prefs"
+  }
+}
